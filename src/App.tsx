@@ -3,12 +3,18 @@ import Recipe from "./components/Recipe";
 import dog from "./assets/images/dog.jpg";
 import { ReactElement } from "react";
 import Counter from "./components/Counter";
+import Clock from "./components/Clock";
+import Header from "./components/Header";
+import Form from "./components/Form";
 
 function App(): ReactElement {
   return (
     <>
       <Recipe name="Сырные палочки" />
       <Counter />
+      <Clock />
+      <Header />
+      <Form />
       <Image src={dog} alt="Собака в шарфике" />
     </>
   );
