@@ -6,6 +6,7 @@ import Counter from "./components/Counter";
 import Clock from "./components/Clock";
 import Header from "./components/Header";
 import Form from "./components/Form";
+import Converter from "./components/Converter";
 
 function App(): ReactElement {
   return (
@@ -15,6 +16,7 @@ function App(): ReactElement {
       <Clock />
       <Header />
       <Form />
+      <Converter />
       <Image src={dog} alt="Собака в шарфике" />
     </>
   );
