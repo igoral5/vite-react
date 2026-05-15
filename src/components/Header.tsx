@@ -5,7 +5,9 @@ export default function Header(): ReactElement {
   const header = useRef<HTMLHeadingElement | null>(null);
 
   const handleChangeColor = () => {
-    if (header.current) header.current.style.backgroundColor = "gold";
+    if (header.current) {
+      header.current.classList.toggle(style.gold);
+    }
   };
 
   return (
